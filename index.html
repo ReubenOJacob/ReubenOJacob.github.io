@@ -71,7 +71,10 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form action="https://formspree.io/f/mjvpokdn" method="POST" >
+							<form
+                                            				action="https://formspree.io/f/mjvpokdn"
+                                            				method="POST"
+                                            				>
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -81,15 +84,17 @@
 											<label for="email">Email</label>
 											<input type="text" name="email" id="email" />
 										</div>
+                                       						 <div class="field half">
+											<label for="subject">Subject</label>
+											<input type="text" name="name" id="name" />
+										</div>
 										<div class="field">
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="6"></textarea>
 										</div>
 									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
+                                    
+									  <button type="submit">Send</button>
 								</form>
 							</section>
                             
