@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background-color: #000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -252,7 +252,8 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(212, 212, 255, 0.035);
+		background-color: #000000
+            
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -280,7 +281,7 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 3em 0;
+			margin: 0em 0;
 		}
 
 	.align-left {
@@ -1774,7 +1775,7 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
+		margin-bottom: 0em;
 	}
 
 		header.major > :first-child {
@@ -2661,7 +2662,7 @@ input, select, textarea {
 				input[type="button"].next,
 				button.next,
 				.button.next {
-					padding-right: 5em;
+				padding-right: 5em;
 				}
 
 			}
@@ -2835,7 +2836,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #000000;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
@@ -2938,7 +2939,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #000000;
 		}
 
 			.spotlights > section > .image {
@@ -3000,7 +3001,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #000000; 
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3114,7 +3115,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #000000;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3136,7 +3137,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
-			padding: 0 1.5em;
+			padding: 0 0em;
 		}
 
 			#header .logo strong {
@@ -3144,7 +3145,9 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #ffffff;
+				background-color: #000000;
+                
+                
 				color: #242943;
 				display: inline-block;
 				line-height: 1.65em;
@@ -3263,7 +3266,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				background-color: #000000
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3318,7 +3321,7 @@ input, select, textarea {
 			}
 
 				#header .logo {
-					padding: 0 1em;
+					padding: 0 0em;
 				}
 
 				#header nav a {
@@ -3380,24 +3383,24 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-color: #000000
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 6em 0 2em 0 ;
+		padding: 0em  0em 0em ;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
-		margin-bottom: -3.25em;
+		height: 30vh;
+		margin-bottom: 0em;
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
-		top: -3.25em;
+		top: 0em;
 	}
 
 		#banner:after {
@@ -3410,7 +3413,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #000000
 			content: '';
 			display: block;
 			height: 100%;
@@ -3461,7 +3464,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				margin: 0 0 2em 0;
+				margin: 0;
 			}
 
 				#banner > .inner .content > * {
@@ -3541,12 +3544,12 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 0 1em 0 ;
+				padding: 0em 0 0em 0 ;
 				height: auto;
-				margin-bottom: -2.75em;
+				margin-bottom: 0em;
 				max-height: none;
 				min-height: 0;
-				top: -2.75em;
+				top: 0em;
 			}
 
 				#banner h1 {
@@ -3559,7 +3562,7 @@ input, select, textarea {
 
 					#banner > .inner .content > * {
 						margin-right: 0;
-						margin-bottom: 2em;
+						margin-bottom: 0em;
 					}
 
 				#banner.major {
@@ -3573,7 +3576,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 6em 0 2em 0 ;
+				padding: 0em 0 0em 0 ;
 			}
 
 				#banner > .inner .content p br {
@@ -3581,7 +3584,7 @@ input, select, textarea {
 				}
 
 				#banner.major {
-					padding: 8em 0 4em 0 ;
+					padding: 0em 0 0em 0 ;
 				}
 
 		}
@@ -3601,7 +3604,7 @@ input, select, textarea {
 			}
 
 			#main > * > .inner {
-				padding: 4em 0 2em 0 ;
+				padding: 0em 0 0em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
@@ -3610,7 +3613,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#main > * > .inner {
-						padding: 3em 0 1em 0 ;
+						padding: 0em 0 0em 0 ;
 						width: calc(100% - 3em);
 					}
 
@@ -3633,7 +3636,7 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			padding: 0 !important;
+			padding: 2em !important;
 		}
 
 			#contact > .inner > :nth-child(2n - 1) {
@@ -3798,7 +3801,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background-color: #000000
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3926,7 +3929,7 @@ input, select, textarea {
 			}
 
 	body.is-ie #menu {
-		background: rgba(42, 47, 74, 0.975);
+		background-color: #000000
 	}
 
 	body.is-menu-visible #wrapper {
